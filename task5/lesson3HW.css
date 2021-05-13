@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+input,
+button {
+  border: none;
+}
+
+body {
+  background-color: #faf9fe;
+}
+
+.container {
+  width: 470px;
+  height: auto;
+  padding: 46px 52px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(63, 78, 90, 0.108667);
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #325e82;
+  width: 364px;
+  height: 20px;
+  left: 219px;
+  top: 172px;
+}
+
+.title-second {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #325e82;
+  margin-top: 12px;
+}
+.row {
+  font-size: 0;
+  margin-top: 32px;
+}
+
+.card {
+  display: inline-block;
+  font-size: 1rem;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+  padding-top: 0;
+  padding-bottom: 33px;
+}
+
+.card:first-child {
+  padding-left: 0;
+}
+
+.card:last-child {
+  padding-right: 0;
+}
+
+.card_title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 6px;
+  font-weight: 300;
+}
+
+.btn {
+  display: inline-block;
+  padding: 9px 28px;
+  background: #25a0d4;
+  border: 1px solid #25a0d4;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+}

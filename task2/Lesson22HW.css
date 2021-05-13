@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  background: #74408c;
+}
+
+.sign-up-form {
+  width: 463px;
+  margin: 137px auto;
+  text-align: center;
+}
+
+.form-title {
+  padding-top: 40px;
+  margin-left: 26px;
+  width: 410px;
+  height: 29px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+  color: #74408c;
+}
+
+.form-container {
+  width: 100%;
+  height: 402px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.form-field {
+  background: #e5e9ed;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  width: 391px;
+  height: 55px;
+}
+
+.form-field:focus {
+  background: #ffffff;
+}
+
+.form-field:active {
+  background: #ffffff;
+}
+
+.form-field-one {
+  margin-top: 55px;
+}
+
+.form-field-second {
+  margin-top: 14px;
+}
+
+.btn-submit {
+  background: #74408c;
+  border: 1px solid #74408c;
+  border-radius: 5px;
+  width: 391px;
+  height: 55px;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 55px;
+}
+.btn-submit:focus {
+  background: #b649e8;
+}
+
+.btn-submit:active {
+  background: #b649e8;
+}

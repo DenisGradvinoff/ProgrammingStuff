@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  list-style-type: disc;
+}
+
+li {
+  color: #bc1e4a;
+}
+
+li span {
+  color: #ffffff;
+}
+
+input,
+button {
+  border: none;
+}
+
+body {
+  background: #464748;
+  border: 1px solid #979797;
+}
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+  width: 1600px;
+  height: auto;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #ffffff;
+}
+.title-second {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 34px;
+}
+
+.row {
+  margin: auto;
+  display: inline-flex;
+  margin-top: 46px;
+}
+
+.card {
+  width: 375px;
+  height: 608px;
+  background: #22262c;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 37px;
+}
+.card-second-title {
+  height: 76px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 76px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 18px;
+}
+
+.card-second-title::before {
+  content: "$";
+}
+
+.card-monthly .card-second-title::after {
+  content: "/month";
+  font-size: 15px;
+}
+
+.card-price-emty .card-second-title::after {
+  content: "";
+}
+
+.card-price-emty .card-second-title::before {
+  content: "";
+}
+
+.card-list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 64px;
+}
+
+.card-list-first {
+  margin-left: 84px;
+  margin-right: 90px;
+}
+
+.card-list-second {
+  margin-left: 47px;
+  margin-right: 29px;
+}
+
+.card-list-third {
+  margin-left: 84px;
+  margin-right: 37px;
+}
+
+.btn {
+  width: 243px;
+  height: 54px;
+  box-sizing: border-box;
+  display: inline-block;
+  background: #22262c;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.btn-first {
+  margin-top: 48px;
+  border-radius: 4px;
+  border: 1px solid #bc1e4a;
+}
+
+.btn-second {
+  margin-top: 130px;
+  background: #bc1e4a;
+  border-radius: 4px;
+}
+
+.btn-third {
+  margin-top: 90px;
+  border-radius: 4px;
+  border: 1px solid #bc1e4a;
+}

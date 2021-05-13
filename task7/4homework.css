@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.625453);
+}
+
+.parent {
+  width: 550px;
+  height: 800px;
+  margin: 50px auto;
+  position: relative;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 43px;
+  color: #ffffff;
+  text-align: center;
+  left: 53.88%;
+  top: calc(50% - 43px / 2 - 281.5px);
+}
+
+.lines {
+  background: #ffffff;
+  border-radius: 3px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.391111px;
+  text-align: left;
+  padding: 25px;
+  position: relative;
+
+  color: #6b86a8;
+}
+
+.line1 {
+  width: 500px;
+  height: 70px;
+  margin-top: 35px;
+  line-height: 18px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.line2 {
+  width: 500px;
+  height: 125px;
+  margin-top: 43px;
+  line-height: 27px;
+  position: absolute;
+  left: 50%;
+  top: 27%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.line3 {
+  width: 500px;
+  height: 100px;
+  margin-top: 35px;
+  line-height: 27px;
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.line4 {
+  width: 500px;
+  height: 100px;
+  margin-top: 35px;
+  position: absolute;
+  left: 50%;
+  top: 64%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.form-field {
+  background: #ffffff;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #cfcfcf;
+  line-height: 18px;
+  padding: 20px;
+
+  width: 320px;
+  height: 54px;
+  display: inline-block;
+}
+
+.btn {
+  background: #ff5b1c;
+  border-radius: 3px;
+  border: 1px solid #ececec;
+  width: 166px;
+  height: 54px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  display: inline-block;
+  margin-left: 9px;
+}

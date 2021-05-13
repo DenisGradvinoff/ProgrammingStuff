@@ -1,0 +1,31 @@
+.slidershow {
+  width: 600px;
+  margin: 0 auto;
+  &__viewport {
+    display: flex;
+    width: 100%;
+    border: 2px solid green;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  &__slides {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border: 1px solid aqua;
+    transition: transform 0.4s;
+  }
+  &__slide {
+    border: 1px solid yellow;
+  }
+}
+
+.rectangle {
+  background: red;
+  height: 300px;
+  width: 600px;
+}
